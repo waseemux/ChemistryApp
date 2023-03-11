@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey_6">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingHorizontal="10dp"
+        android:layout_alignParentTop="true">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/chemistry_picker_title"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="4dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/chemistry_picker_subtitle"
+            android:textSize="13sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <GridView
+            android:id="@+id/chemistryPicker_GridView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:numColumns="3"
+            android:horizontalSpacing="10dp"
+            android:verticalSpacing="10dp"
+            android:layout_marginBottom="88dp"
+            android:nestedScrollingEnabled="true" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/sendChemistry_Button"
+            android:layout_width="240dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:text="@string/chemistry_picker_btn_label"
+            android:textAllCaps="false"
+            android:letterSpacing="0"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:background="@color/red" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

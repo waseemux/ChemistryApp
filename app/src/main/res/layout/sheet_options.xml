@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/edit_option"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:paddingHorizontal="20dp"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/edit_name_and_picture"
+            android:textSize="16sp"
+            android:textColor="@color/grey_60" />
+
+    </LinearLayout>
+
+    <com.google.android.material.divider.MaterialDivider
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        app:dividerColor="@color/grey_6" />
+
+    <LinearLayout
+        android:id="@+id/logout_option"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:paddingHorizontal="20dp"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/logout"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/red" />
+
+    </LinearLayout>
+
+</LinearLayout>

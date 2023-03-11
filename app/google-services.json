@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "864500940958",
+    "project_id": "chemistry-firebase",
+    "storage_bucket": "chemistry-firebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:864500940958:android:99d95ee5c4b73554a6fb8f",
+        "android_client_info": {
+          "package_name": "com.chemistry.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "864500940958-7nmu95ok9gi9rrceuavjcnee2f3u0urk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBy8jYBQzx4kNmxaDkjXqrhGBalbxH5W_0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "864500940958-7nmu95ok9gi9rrceuavjcnee2f3u0urk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

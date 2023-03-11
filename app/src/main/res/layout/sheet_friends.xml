@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingHorizontal="30dp"
+    android:paddingVertical="40dp"
+    android:background="@color/grey_6">
+
+    <TextView
+        android:id="@+id/identifiedDuration_TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/identified_in_x"
+        android:textSize="16sp"
+        android:textColor="@color/grey_60" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <com.chemistry.android.MaskedImageView
+        android:id="@+id/identifiedThumbnail_ImageView"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop"
+        app:maskPathData="M20,0 C7.615,0 0,7.615 0,20 C0,32.385 7.615,
+        40 20,40 C32.385,40 40,32.385 40,20 C40,7.615 32.385,0 20,0 Z"
+        android:contentDescription="@string/friendThumbnailHint_ImageView" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <TextView
+        android:id="@+id/identifiedName_TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/default_name"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/chemistries_sent_to_each_other"
+        android:textSize="13sp"
+        android:textColor="@color/grey_60" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/from_TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_gravity="start"
+            android:gravity="center"
+            android:paddingHorizontal="10dp"
+            android:text="@string/from_friend_to_you"
+            android:textSize="11sp"
+            android:textColor="@color/grey_40" />
+
+        <TextView
+            android:id="@+id/friendReceivedChemistry_TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_gravity="start"
+            android:gravity="center"
+            android:paddingHorizontal="15dp"
+            android:text="@string/received_chemistry_default"
+            android:textSize="13sp"
+            android:textColor="@color/black"
+            android:background="@color/white"/>
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="end">
+
+        <TextView
+            android:id="@+id/to_TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:gravity="center"
+            android:layout_gravity="end"
+            android:paddingHorizontal="10dp"
+            android:text="@string/from_friend_to_you"
+            android:textSize="11sp"
+            android:textColor="@color/grey_40" />
+
+        <TextView
+            android:id="@+id/friendSentChemistry_TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_gravity="end"
+            android:gravity="center"
+            android:paddingHorizontal="15dp"
+            android:text="@string/received_chemistry_default"
+            android:textSize="13sp"
+            android:textColor="@color/black"
+            android:background="@color/white"/>
+
+    </LinearLayout>
+
+</LinearLayout>

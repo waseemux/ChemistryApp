@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/grey_6"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingHorizontal="10dp">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/identify"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="4dp" />
+
+        <TextView
+            android:id="@+id/anonymousDuration_TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/anonymous_duration"
+            android:textSize="13sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/anonymousChemistryIcon_TextView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/default_chemistry_icon"
+            android:textSize="50sp"
+            android:textColor="@color/black"
+            android:background="@drawable/squircle_card" />
+
+        <TextView
+            android:id="@+id/anonymousChemistryName_TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:layout_gravity="center"
+            android:paddingTop="10dp"
+            android:gravity="center"
+            android:text="@string/default_chemistry_name"
+            android:textSize="14sp"
+            android:lineHeight="12dp"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/reveal_Button"
+            android:layout_width="240dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:text="@string/reveal"
+            android:textAllCaps="false"
+            android:letterSpacing="0"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:background="@color/red" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="40dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

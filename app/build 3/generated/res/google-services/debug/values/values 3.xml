@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">864500940958-7nmu95ok9gi9rrceuavjcnee2f3u0urk.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">864500940958</string>
+    <string name="google_api_key" translatable="false">AIzaSyBy8jYBQzx4kNmxaDkjXqrhGBalbxH5W_0</string>
+    <string name="google_app_id" translatable="false">1:864500940958:android:99d95ee5c4b73554a6fb8f</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBy8jYBQzx4kNmxaDkjXqrhGBalbxH5W_0</string>
+    <string name="google_storage_bucket" translatable="false">chemistry-firebase.appspot.com</string>
+    <string name="project_id" translatable="false">chemistry-firebase</string>
+</resources>

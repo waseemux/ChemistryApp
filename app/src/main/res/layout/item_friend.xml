@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingHorizontal="10dp">
+
+    <com.chemistry.android.MaskedImageView
+        android:id="@+id/friendThumbnail_ImageView"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop"
+        app:maskPathData="M20,0 C7.615,0 0,7.615 0,20 C0,32.385 7.615,
+        40 20,40 C32.385,40 40,32.385 40,20 C40,7.615 32.385,0 20,0 Z"
+        android:contentDescription="@string/friendThumbnailHint_ImageView" />
+
+    <TextView
+        android:id="@+id/friendName_TextView"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="@string/default_name"
+        android:textSize="12sp"
+        android:textColor="@color/black" />
+
+</LinearLayout>

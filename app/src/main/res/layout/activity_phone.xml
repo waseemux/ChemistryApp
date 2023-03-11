@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="32dp">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <EditText
+        android:id="@+id/phoneNumber_EditText"
+        android:layout_width="240dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingVertical="8dp"
+        android:hint="@string/enterPhoneNumber_hint"
+        android:textSize="16sp"
+        android:autofillHints="phone"
+        android:inputType="phone" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="12dp" />
+
+    <Button
+        android:id="@+id/getPasscode_Button"
+        android:layout_width="240dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:background="@color/purple_500"
+        android:text="@string/phone_btn_label"
+        android:textAllCaps="false"
+        android:letterSpacing="0"
+        android:textStyle="bold"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="@string/legal_warning"
+        android:textSize="12sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+</LinearLayout>
