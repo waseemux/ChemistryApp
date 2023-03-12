@@ -59,7 +59,9 @@
     <string name="red_question_mark">❓</string>
     <string name="identify">Identify who sent this to you</string>
     <string name="anonymous_duration">It\'s been 2 days since you received this</string>
-    <string name="reveal">Reveal</string>
-    <string name="solve">Solve   (0/1 used)</string>
-    <string name="cheat">Cheat   (0/3 used)</string>
+    <string name="solve_button">Solve</string>
+    <string name="cheat_button">Cheat</string>
+    <string name="solve_usage">0/1 used</string>
+    <string name="cheat_usage">0/3 used</string>
+    <string name="solve_instruction">Solve the name:</string>
 </resources>
